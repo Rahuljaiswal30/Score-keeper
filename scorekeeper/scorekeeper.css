@@ -1,0 +1,118 @@
+.winner{
+    color: rgb(245, 0, 0);
+}
+div{
+    text-align: left;
+    line-height: 0.3rem;
+}
+.about{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+body{
+    padding: 5%;
+    background-image: linear-gradient(pink, yellow);
+    text-align: center;
+}
+html{
+    height: 100%;
+}
+button{
+    background: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin: 0 8px;
+    padding: 5px;
+    display: inline-block;
+    color: red;
+    border-radius: 8px;
+    font-weight: 800;
+}
+input[type="number"]{
+    padding: 4px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 250px;
+}   
+button:hover{
+    color: white;
+    background: red;
+    transition: all 0.6s;
+}
+h3{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	top: -9999px;
+    left: -9999px;
+}
+
+label {
+	display: block;
+	background: #08C;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 8px;
+	color: white;
+    font-weight: bold;
+    font-size: 2.0rem;
+    width: 200px;  
+}
+
+.to-be-changed{
+    display: none;
+}
+input[type=checkbox]:checked ~ .to-be-changed {
+ display: block;
+}
+div.row{
+    /* margin-bottom: 0; */
+    /* border: 1px solid black; */
+}
+div#nextPage{
+    padding: 0px 40px 0px 40px;
+    margin-left: 860px;
+    /* border: 2px dashed blue; */
+}
+div#nextPage p{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 320px;
+    height: 100px;
+    margin: 0;
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    background: linear-gradient( 90deg, pink, yellow);
+    /* display: table-cell;
+    vertical-align: middle; */
+    /* padding: 0; */
+   }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+div#nextPage p:hover{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+i.fa{
+    font-size: 100px;
+}
+i.fa:hover{
+    font-size: 120px;
+    transition: all 0.4s;
+}
